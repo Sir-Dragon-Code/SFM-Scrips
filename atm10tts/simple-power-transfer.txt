@@ -1,0 +1,6 @@
+## Simple Power Transfer Script
+
+EVERY TICK DO
+  INPUT fe:: FROM FeSource
+  OUTPUT fe:: TO FeExport
+END
