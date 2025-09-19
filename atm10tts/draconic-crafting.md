@@ -6,7 +6,7 @@
 ## This does require you to set the crafting recipe in such a way that the item that needs to be first is in slot 0 of the crafting recipe, since AE2 is smart with how it places items
 
 EVERY 20 TICKS DO
-INPUT FROM materials
+  INPUT FROM materials
   OUTPUT RETAIN 1 TO core
   OUTPUT RETAIN 1 TO injector
 FORGET
