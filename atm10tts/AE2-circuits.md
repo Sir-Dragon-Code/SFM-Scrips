@@ -17,7 +17,7 @@ FORGET
   OUTPUT sliced_silicon TO assembler_all SLOTS 1
   OUTPUT sliced_certus TO assembler_certus SLOTS 0
   OUTPUT sliced_gold TO assembler_gold SLOTS 0
-  OUTPUT sliced_diamond TO assembler_gold SLOTS 0
+  OUTPUT sliced_diamond TO assembler_diamond SLOTS 0
 FORGET
   INPUT FROM assembler_all
   OUTPUT TO circuit_storage
