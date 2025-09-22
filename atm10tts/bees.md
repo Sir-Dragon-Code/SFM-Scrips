@@ -1,15 +1,5 @@
 # BEES
 Simple bee script
-
-| Block | Tag  |
-|-|-|
-| Advanced Hive | hive |
-| Power Source  | fe_source |
-| Comb Storage | comb_store |
-| Heated Centrifuge | centri |
-| End Products | storage |
-| Fluid storage | fluid_store |
-
 ``` Haskell
 EVERY 20 TICKS DO
   INPUT FROM hive
@@ -30,3 +20,13 @@ EVERY TICK DO
   OUTPUT fe:: TO centri
 END
 ```
+
+| Block | Tag  |
+|-|-|
+| Advanced Hive | hive |
+| Power Source  | fe_source |
+| Comb Storage | comb_store |
+| Heated Centrifuge | centri |
+| End Products | storage |
+| Fluid storage | fluid_store |
+
