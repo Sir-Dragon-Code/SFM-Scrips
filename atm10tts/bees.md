@@ -1,5 +1,9 @@
 # BEES
 Simple bee script
+
+This is a setup for using advanced beehives + expansion boxes.
+Personally, I use full omega upgrades in the hives, and 2 omega + 2 speedier upgrades in the heated centrifuges.
+
 ``` Haskell
 EVERY 20 TICKS DO
   INPUT FROM hive
