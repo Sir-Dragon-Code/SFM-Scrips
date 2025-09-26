@@ -8,7 +8,7 @@
 EVERY 20 TICKS DO
   INPUT FROM materials
   OUTPUT RETAIN 1 TO core
-  OUTPUT RETAIN 1 TO injector
+  OUTPUT RETAIN 1 TO EACH injector
 FORGET
   INPUT FROM core
   OUTPUT TO provider
